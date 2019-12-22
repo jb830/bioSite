@@ -15,14 +15,14 @@
 </head>
 <body>
 	<!-- MAIN WRAPPER -->
-	<div class="wrapper">
+	<main>
 		
 		<!-- HEADER -->
 		<header>
 			<nav id="top" class="h-nav wrap">
 				<ul class="h-nav-list">
 					<li class="h-nav-item"><a href="#hobbies">hobbies</a></li>
-					<li class="h-nav-item"><a href="#">gallery</a></li>
+					<li class="h-nav-item"><a href="#gallery">gallery</a></li>
 				</ul>	
 				<div class="h-nav-list">
 					<h1 class="name">Laura<br>Hoffmann</h1></li>
@@ -79,11 +79,11 @@
 					<h2>&nbsp Music &nbsp</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In sequi nihil error aut fugiat m dolore cumque neque esse alias deserunt est atque voluptatem?</p>
 				</article>
-				<article class="hobbie-item hobbie-item2">
+<!-- 				<article class="hobbie-item hobbie-item2">
 				 	<img src="images/baking4.jpg" alt="">
 					<h2>&nbsp Baking &nbsp</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In sequi nihil error aut fugiat quia, accusamus temporibus ad ex fugit praesentium dolore cumque neque esse alias deserunt est atque voluptatem?</p>
-				</article>
+				</article> -->
 				<article class="hobbie-item hobbie-item3">
 				 	<img src="images/photography.jpg" alt="">
 					<h2>&nbsp Photography &nbsp</h2>
@@ -113,53 +113,87 @@
 		</section>
 
 		<!-- IMAGE GALLERY COLLAGE -->
-		<section class="gallery-wrap wrap">
-		  	<figure class="gallery-item gallery-item-1">
-		    	<img src="images/img1.jpeg" class="gallery__img" alt="Image 1">
-		  	</figure>
-		  	<figure class="gallery-item gallery-item-2">
-		    	<img src="images/img2.jpeg" class="gallery-img" alt="Image 2">
-		  	</figure>
-		  	<figure class="gallery-item gallery-item-3">
-		    	<img src="images/img3.jpeg" class="gallery-img" alt="Image 3">
-		  	</figure>
-		  	<figure class="gallery-item gallery-item-4">
-		    	<img src="images/img4.jpeg" class="gallery-img" alt="Image 4">
-		  	</figure>
-		  	<figure class="gallery-item gallery-item-5">
-		    	<img src="images/img5.jpeg" class="gallery-img" alt="Image 5">
-		  	</figure>
-		  	<figure class="gallery-item gallery-item-6">
-		    	<img src="images/img6.jpg" class="gallery-img" alt="Image 6">
-		  	</figure>
-		  	<figure class="gallery-item gallery-item-17">
-		    	<img src="images/img12.jpeg" class="gallery-img" alt="Image 4">
-		  	</figure>
-		  	<figure class="gallery-item gallery-item-8">
-		    	<img src="images/photography2.jpg" class="gallery-img" alt="Image 5">
-		  	</figure>
-		  	<figure class="gallery-item gallery-item-9">
-		    	<img src="images/img13.jpeg" class="gallery-img" alt="Image 6">
-		  	</figure>		  
-		  	<figure class="gallery-item gallery-item-9">
-		    	<img src="images/img14.jpg" class="gallery-img" alt="Image 6">
-		  	</figure>
+		<section id="gallery" class="gallery-wrap wrap">
+			<h1>Some photos from the trip..</h1>
+			<div class="gallery-top">
+				<div class="gallery-col"> 
+				  	<figure class="g-item">
+				    	<img src="images/img4-resized.jpg" class="gallery-col-item" alt="Two desert coyotes" width="100%" height="100%">
+				  	</figure>
+				  	<figure class="g-item">
+				    	<img src="images/img2-resized.jpg" class="gallery-col-item" alt="Ocean cove" width="100%" height="100%">
+				  	</figure>
+				</div>  	
+			  	<div class="gallery-row">
+				  	<figure class="g-item">
+				    	<img src="images/img12-resized.jpg" class="gallery-row-item" alt="Waterfall behind a bridge" width="100%" height="100%">
+				  	</figure>
+			  	</div>
+			</div>
+		  	<div class="gallery-center">
+			  	<figure class="g-item">
+			    	<img src="images/photography2.jpg" class="gallery-row-item" alt="Laura with her camera taking photos" width="100%" height="100%">
+			  	</figure>
+			  	<figure class="g-item">
+			    	<img src="images/img5-resized.jpg" class="gallery-row-item" alt="Sunset over lake with a doc and a boat" width="100%" height="100%">
+			  	</figure>
+		  	</div>
+		  	<div class="gallery-bottom">
+			  	<div class="gallery-row">
+				  	<figure class="g-item">
+				    	<img src="images/img14-resized.jpg" class="gallery-row-item" alt="Trail in the mountains" width="100%" height="100%">
+				  	</figure>
+			  	</div>
+			  	<div class="gallery-col">
+				  	<figure class="g-item">
+				    	<img src="images/img1-resized.jpg" class="gallery-col-item" alt="Waterfalls" width="100%" height="100%">
+				  	</figure>
+				  	<figure class="g-item">
+				    	<img src="images/img13-resized.jpg" class="gallery-col-item" alt="Bridge in the forest" width="100%" height="100%">
+				  	</figure>
+			  	</div>
+			</div>
 		</section>
 		
-		<!-- FOOTER -->
-		<footer>
-			<!-- CONTACT SECTION -->
-			<section id="contact" class="contact wrap">
-				<figure class="portrait round">
-			    	<img src="images/portrait-resized.jpg" class="gallery-img" alt="Image 6">
-		  		</figure>
-				<p>
-					Currently, Laura works as the front office manager at an acupuncture clinic while studying to become an elementary school teacher.   
-					<br>She is passionate about developing creative curriculum and teaching in a way that nurtures wholeness, confidence, curiosity and happiness in children.
-				</p>
-			</section>			
-		</footer>
-	</div> <!--END PAGE WRAP-->
+		<!-- BIO CONTINUED -->
+		<section class="bio-continued wrap">
+			<img src="" alt="" width="100%">
+			<article>
+				<h1>At the moment..</h1>
+				<p>	
+					Currently, Laura works as the front office manager at an acupuncture clinic while
+					studying to become an elementary school teacher.   
 
+					She is passionate about developing creative curriculum and teaching in a way that nurtures wholeness, confidence, curiosity and happiness in children.
+ 				</p>
+			</article>
+		</section>
+
+	</main> <!--END PAGE WRAP-->		
+
+	<!-- FOOTER -->
+	<footer>		
+		<div class="row">
+			<!-- CONTACT SECTION -->	
+			<address>
+				<p>
+					4885 University Drive<br>
+					Chicago,IL<br>
+					60610
+				</p>
+				<a href="#">laurasfakeemail@example.com</a>
+			</address>
+			<!-- PORTRAIT IMAGE WILL GO HERE -->
+				<figure class="portrait round">
+			    	<img src="" class="gallery-img" alt="Image 6">
+		 		</figure>
+			</section>	
+		</div>
+		<section class="social">
+			<a href="#"><i class="fab fa-facebook-square"></i></a>
+			<a href="#"><i class="fab fa-twitter-square"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+		</section>		
+	</footer>
 </body>
 </html>
