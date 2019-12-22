@@ -80,12 +80,6 @@ img {
 	width: 100%;
 	object-fit: cover;
 }
-.wrap {
-	padding: 4.5rem 2rem;
-}
-.wrap:first-of-type {
-	padding: 0;
-}
 
 /*-- HEADER --*/
 header {
@@ -93,7 +87,12 @@ header {
 }
 
 /*-- CONTAINER --*/
-
+.wrap {
+	padding: 4.5rem 2rem;
+}
+.wrap:first-of-type {
+	padding: 0;
+}
 /*-- NAV --*/
 .h-nav {
 	display: flex;
@@ -144,7 +143,6 @@ header {
 
 /*-- FEATURED CONTENT --*/
 .featured-content {
-	margin: 2rem 0 4rem 0;
 	display: flex;
 	flex-flow: row;
 	justify-content: space-evenly;
