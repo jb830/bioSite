@@ -6,16 +6,48 @@
 	<meta name="description" content="Mini biography about Laura Hoffmann">
 	<meta name="author" content="Joanna Brumfield">
 
-	<link rel="stylesheet" type="text/css" href="styles/style.css">	
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+SC:300,400,500,600|Dancing+Script:400,500,600|Gupter:400,500,700|Montserrat:300|Parisienne&display=swap" rel="stylesheet">
+
+	<script src="https://kit.fontawesome.com/bc5c290b4f.js" crossorigin="anonymous"></script>
 	
 	<script src="https://kit.fontawesome.com/bc5c290b4f.js" crossorigin="anonymous"></script>
 
 	<title>Photo Gallery</title>
 </head>
 <body>
+	<main>
+		<!-- HEADER -->
+		<header class="wrap">
+			<nav id="top" class="h-nav">
+				<ul class="h-nav-list">
+					<li class="h-nav-item"><a href="index.html">home</a></li>
+					<li class="h-nav-item"><a href="gallery.html">gallery</a></li>
+				</ul>	
+				<div class="h-nav-list">
+					<h1 class="name">Laura<br>Hoffmann</h1></li>
+					<div class="circle"></div>
+				</div>	
+				<ul class="h-nav-list">
+					<li class="h-nav-item"><a href="index.html#adventure">adventure</a></li>
+					<li class="h-nav-item"><a href="#">link</a></li>
+				</ul>	
+				<div ontouchend="myFunction()" class="dropdown">
+					<button class="dropbtn">
+						<i class="fas fa-bars"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="#hobbies">hobbies</a>
+						<a href="#">gallery</a>
+						<a href="#adventure">adventure</a>
+						<a href="#">external link</a>
+					</div>
+				</div>				
+			</nav>
+		</header>
 		<!-- IMAGE GALLERY COLLAGE -->
 		<section id="gallery" class="gallery-wrap wrap">
-			<h1>Some photos from the trip..</h1>
+			<h1 class="header-style">Some photos from the trip..</h1>
 			<div class="gallery-top">
 				<div class="gallery-col"> 
 				  	<figure class="g-item">
@@ -55,5 +87,34 @@
 			  	</div>
 			</div>
 		</section>
+	</main>
+	<!-- FOOTER -->
+	<footer>		
+		<div class="footer-row wrap">
+			<!-- CONTACT SECTION -->	
+			<div class="footer-col">
+				<address>
+					<p>
+						4885 University Drive<br>
+						Chicago,IL<br>
+						60610
+					</p>
+					<a href="#">laurasfakeemail@example.com</a>
+				</address>
+			</div>
+			<!-- SOCIAL MEDIA -->
+			<div class="footer-col social">
+				<a href="#"><i class="fab fa-facebook-square"></i></a>
+				<a href="#"><i class="fab fa-twitter-square"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+			</div>
+			<!-- PORTRAIT IMAGE WILL GO HERE -->
+			<div class="footer-col">
+<!-- 				<figure class="portrait">
+				    <img src="images/portrait.jpg" class="gallery-img" alt="Image 6">
+			 	</figure> -->
+		 	</div>	
+		</div>
+	</footer>	
 </body>
 </html>
