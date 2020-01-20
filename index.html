@@ -15,37 +15,45 @@
 	<title>Laura Hoffmann Bio Site</title>
 </head>
 <body>
-	<!-- MAIN WRAPPER -->
-	<main>
-		<!-- HEADER -->
-		<header class="wrap">
-			<nav id="top" class="h-nav">
-				<ul class="h-nav-list">
-					<li class="h-nav-item"><a href="default.asp">home</a></li>
-					<li class="h-nav-item"><a href="gallery.html">gallery</a></li>
-				</ul>	
-				<div class="h-nav-list">
-					<h1 class="name">Laura<br>Hoffmann</h1></li>
-					<div class="circle"></div>
-				</div>	
-				<ul class="h-nav-list">
-					<li class="h-nav-item"><a href="#adventure">adventure</a></li>
-					<li class="h-nav-item"><a href="#">link</a></li>
-				</ul>	
-				<div ontouchend="myFunction()" class="dropdown">
-					<button class="dropbtn">
-						<i class="fas fa-bars"></i>
-					</button>
-					<div class="dropdown-content">
-						<a href="#hobbys">hobbys</a>
-						<a href="#">gallery</a>
-						<a href="#adventure">adventure</a>
-						<a href="#">external link</a>
-					</div>
-				</div>				
-			</nav>
-		</header>
+
+	<!-- HEADER -->
+	<header class="wrap">
+		<nav id="top" class="h-nav">
+			<ul class="h-nav-list">
+				<li class="h-nav-item"><a href="index.html">home</a></li>
+				<li class="h-nav-item"><a href="gallery.html">gallery</a></li>
+			</ul>	
+			<div class="h-nav-list">
+				<h1 class="name">Laura<br>Hoffmann</h1></li>
+			<div class="circle"></div>
+			<ul class="h-nav-list">
+				<li class="h-nav-item"><a href="#adventure">adventure</a></li>
+				<li class="h-nav-item"><a href="#">link</a></li>
+			</ul>
+		</nav>	
 		
+		<!-- MOBILE NAV -->			
+		<nav class="mobile-menu">
+			<div class="left">
+				<h1 class="name">Laura Hoffmann</h1>
+			</div>
+				<div class="right">
+				<input type="checkbox" class="activate" id="accordion" name="accordion">
+	      		<label for="accordion" class="menu-title">
+	      			<i class="fas fa-bars"></i>
+	      		</label> 
+
+	      		<div class="drop-down">
+	        		<a href="index.html">home</a>
+	        		<a href="gallery.html">gallery</a>
+	        		<a href="#adventure">adventure</a>
+	        		<a href="#">link</a>
+	      		</div>
+      		</div>
+		</nav>		
+	</header>
+	<!-- MAIN WRAPPER -->
+	<main>		
 		<!-- FEATURED CONTENT --->
 		<section class="featured-content wrap">
 			<div class="bio-container featured-col">
