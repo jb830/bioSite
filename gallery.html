@@ -16,85 +16,61 @@
 	<title>Photo Gallery</title>
 </head>
 <body>
-	<main>
-		<!-- HEADER -->
 	<!-- HEADER -->
 	<header class="wrap">
 		<nav id="top" class="h-nav">
-			<ul class="h-nav-list">
-				<li class="h-nav-item"><a href="index.html">home</a></li>
-				<li class="h-nav-item"><a href="gallery.html">gallery</a></li>
-			</ul>	
-			<div class="h-nav-list">
-				<h1 class="name">Laura<br>Hoffmann</h1></li>
-			<div class="circle"></div>
-			<ul class="h-nav-list">
-				<li class="h-nav-item"><a href="index.html#adventure">adventure</a></li>
-				<li class="h-nav-item"><a href="#">link</a></li>
-			</ul>
+			<div class="h-nav-item">
+				<a href="index.html">home</a>
+			</div>
+			<div class="h-nav-item">
+				<a href="gallery.html">gallery</a>
+			</div>
+			<div class="h-nav-item">
+				<h1 class="name">Laura<br>Hoffmann</h1>
+			</div>
+			<div class="h-nav-item">
+				<a href="index.html#adventure">adventure</a>
+			</div>
+			<div class="h-nav-item">
+				<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank"> flexbox</a>
+			</div>
 		</nav>	
 		
 		<!-- MOBILE NAV -->			
 		<nav class="mobile-menu">
-			<div class="left">
-				<h1 class="name">Laura Hoffmann</h1>
-			</div>
-				<div class="right">
-				<input type="checkbox" class="activate" id="accordion" name="accordion">
-	      		<label for="accordion" class="menu-title">
-	      			<i class="fas fa-bars"></i>
-	      		</label> 
+			<a href="index.html" class="logo-link-home"><h2 class="name">Laura Hoffmann</h2></a>
+			<input type="checkbox" class="activate" id="accordion" name="accordion">
+	  
+	      	<label for="accordion" class="menu-title name">
+	      		<i class="fas fa-bars"></i>
+	      	</label> 
 
-	      		<div class="drop-down">
-	        		<a href="index.html">home</a>
-	        		<a href="gallery.html">gallery</a>
-	        		<a href="index.html#adventure">adventure</a>
-	        		<a href="#">link</a>
-	      		</div>
-      		</div>
+	      	<div class="drop-down">
+	        	<a href="index.html">home</a>
+	        	<a href="gallery.html">gallery</a>
+	        	<a href="#adventure">adventure</a>
+	        	<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">learn flexbox</a>
+	      	</div>
 		</nav>		
 	</header>
-		<!-- IMAGE GALLERY COLLAGE -->
-		<section id="gallery" class="gallery-wrap wrap">
-			<h1 class="header-style">Some photos from the trip..</h1>
-			<div class="gallery-top">
-				<div class="gallery-col"> 
-				  	<figure class="g-item">
-				    	<img src="images/img4-resized-cr.jpg" class="gallery-col-item" alt="Two desert coyotes" width="100%" height="100%">
-				  	</figure>
-				  	<figure class="g-item">
-				    	<img src="images/img2-resized-cr.jpg" class="gallery-col-item" alt="Ocean cove" width="100%" height="100%">
-				  	</figure>
-				</div>  	
-			  	<div class="gallery-row">
-				  	<figure class="g-item">
-				    	<img src="images/img12-resized-cr.jpg" class="gallery-row-item" alt="Waterfall behind a bridge" width="100%" height="100%">
-				  	</figure>
-			  	</div>
-			</div>
-		  	<div class="gallery-center">
-			  	<figure class="g-item">
-			    	<img src="images/photography2-cr.jpg" class="gallery-row-item" alt="Laura with her camera taking photos" width="100%" height="100%">
-			  	</figure>
-			  	<figure class="g-item">
-			    	<img src="images/img5-resized-cr.jpg" class="gallery-row-item" alt="Sunset over lake with a doc and a boat" width="100%" height="100%">
-			  	</figure>
-		  	</div>
-		  	<div class="gallery-bottom">
-			  	<div class="gallery-row">
-				  	<figure class="g-item">
-				    	<img src="images/img14-resized-cr.jpg" class="gallery-row-item" alt="Trail in the mountains" width="100%" height="100%">
-				  	</figure>
-			  	</div>
-			  	<div class="gallery-col">
-				  	<figure class="g-item">
-				    	<img src="images/img1-resized-cr.jpg" class="gallery-col-item" alt="Waterfalls" width="100%" height="100%">
-				  	</figure>
-				  	<figure class="g-item">
-				    	<img src="images/img13-resized-cr.jpg" class="gallery-col-item" alt="Bridge in the forest" width="100%" height="100%">
-				  	</figure>
-			  	</div>
-			</div>
+
+	<!-- MAIN -->
+	<main class="gallery">
+		
+<!-- 		<h1 class="header-style gallery-header">Some photos from the trip..</h1> -->
+
+		<section class="gallery-wrap wrap">	
+			<img src="images/img4-resized-cr.jpg" class="g-item g-item1" alt="Two desert coyotes" width="100%" height="auto">
+			<img src="images/img2-resized-cr.jpg" class="g-item g-item2" alt="Ocean cove" width="100%" height="auto">
+			<img src="images/img12-resized-cr.jpg" class="g-item g-item3" alt="Waterfall behind a bridge" width="100%" height="auto">
+			<img src="images/photography2-cr.jpg" class="g-item g-item4" alt="Laura with her camera taking photos" width="100%" height="auto">
+			<img src="images/img5-resize-cr.jpg" class="g-item g-item5" alt="Sunset over lake with a doc and a boat" width="100%" height="auto">
+			<img src="images/img14-resized-cr.jpg" class="g-item g-item6" alt="Trail in the mountains" width="100%" height="auto">
+			<img src="images/img1-resized-cr.jpg" class="g-item g-item7" alt="Waterfalls" width="100%" height="auto">
+			<img src="images/img13-resized-cr.jpg" class="g-item g-item8" alt="Bridge in the forest" width="100%" height="auto">
+			<img src="images/img3-resized-cr.jpg" class="g-item g-item9" alt="Trail in the mountains" width="100%" height="auto">
+			<img src="images/img9-resized-cr.jpg" class="g-item g-item10" alt="Waterfalls" width="100%" height="auto">
+			<img src="images/img11-resized-cr.jpg" class="g-item g-item11" alt="Bridge in the forest" width="100%" height="auto">	
 		</section>
 	</main>
 	<!-- FOOTER -->
@@ -113,15 +89,17 @@
 			</div>
 			<!-- SOCIAL MEDIA -->
 			<div class="footer-col social">
-				<a href="#"><i class="fab fa-facebook-square"></i></a>
-				<a href="#"><i class="fab fa-twitter-square"></i></a>
-				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+				<a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+				<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+				<br>
+				<br>
+				<p>&copy Joanna Brumfield</p>
 			</div>
 			<!-- PORTRAIT IMAGE WILL GO HERE -->
 			<div class="footer-col">
-<!-- 				<figure class="portrait">
-				    <img src="images/portrait.jpg" class="gallery-img" alt="Image 6">
-			 	</figure> -->
+				<p><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Learn Flexbox</a></p>
+				<p><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">Learn CSS Grids</a></p>
 		 	</div>	
 		</div>
 	</footer>	
