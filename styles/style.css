@@ -222,7 +222,7 @@ header {
 	display: flex;
 	flex-flow: row;
 	justify-content: space-between;
-	max-height: 48rem;
+
 	
 }
 .featured-col {
@@ -232,6 +232,7 @@ header {
 	-o-display: flex;	
 	display: flex;
 	width: 49%;
+	max-height: 48rem;	
 }
 .bio-container {
 	background: rgba(241, 221, 214, .5);
