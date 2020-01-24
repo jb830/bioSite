@@ -222,6 +222,7 @@ header {
 	display: flex;
 	flex-flow: row;
 	justify-content: space-between;
+	max-height: 48rem;
 	
 }
 .featured-col {
