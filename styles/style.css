@@ -19,17 +19,17 @@ body {
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 }
+h1, h2 {
+    font-family: 'Gupter', serif;
+    font-weight: 300;
+}
 h1 {
-
 	font-size: 2.074rem;
 	line-height: 1.5rem;
-	font-family: 'Gupter', serif;
 	letter-spacing: .7px;
-	font-weight: 300;
 }
 h2 {
-	font-family: 'Gupter', serif; 
-	font-weight: 300;
+
 	font-size: 1.728em; 
 }
 .header-style {
@@ -78,7 +78,7 @@ main {
 .wrap {
 	margin:  0 auto;
 	padding: 2rem;
-	max-width: 1400px;
+	max-width: 1800px;
 }
 .wrap:first-of-type {
 	padding: 2rem 2rem 0 2rem;
@@ -188,7 +188,8 @@ main {
 	        flex-flow: row;
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
-	        justify-content: space-between;	
+	        justify-content: space-between;
+
 
 }
 .featured-col {
@@ -202,12 +203,18 @@ main {
 }
 .bio-container {
 	background: rgb(244, 235, 232);
-	margin-right: .5rem;
+	margin-right: 2rem;
 }
 .bio-copy {
-	margin: 2rem;
-	border: 1px solid #FFF;
-	padding: 2rem;
+	border: 2px solid #FFF;
+	padding: 3rem;
+	margin: 3rem;
+}
+.bio-copy > p {
+	padding: 1rem 3rem;
+}
+.bio-copy > h2 {
+	padding-top: 1rem;
 	text-align: center;
 }
 .rule {
@@ -326,7 +333,7 @@ main {
 }
 .story-copy {
 	width: 70%;
-	padding: 0 5rem;
+	padding: 1rem 5rem;
 }
 .image-left {
 	border-right: .5rem solid #FFF;
@@ -511,7 +518,7 @@ footer {
 		margin-top: 1rem;
 	}
 	.bio-copy {
-		margin: 1rem;
+		margin: 2rem;
 		padding: 1rem;
 	}
 	.bio-copy > p {
